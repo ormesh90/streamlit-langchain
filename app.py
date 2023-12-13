@@ -214,7 +214,7 @@ def load_model():
     # Get the OpenAI Chat Model
     return ChatOpenAI(
         temperature=0.3,
-        model='gpt-4-1106-preview',
+        model='gpt-3.5-turbo',
         streaming=True,
         verbose=True
     )
